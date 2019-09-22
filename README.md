@@ -26,4 +26,5 @@ Spatial smoothness
 
 # Run
 python style.py —-checkpoint-dir ./model/ —-style ./style/wave.jpg
+
 python evaluate.py —-checkpoint ./model/[YOUR_CKPT_NAME].ckpt —-in-path ./examples/content/chicago.jpg —-out-path ./
